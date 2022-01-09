@@ -1,0 +1,7 @@
+.searchInput input[class^="ant-input ant-input-lg"]{
+    background: transparent;
+    padding-left: 8px;
+    outline: none;
+    width: 320px;
+    height: 30px;
+}
