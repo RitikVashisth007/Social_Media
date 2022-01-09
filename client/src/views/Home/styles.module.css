@@ -1,0 +1,28 @@
+.photolist {
+  width: 90%;
+  list-style: none;
+  overflow-y: auto;
+  margin: 20px auto;
+  height: 100% !important;
+}
+.photoitem {
+  display: flex;
+  max-width: 400px;
+  max-height: 480px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  margin: 20px 0;
+}
+
+.photoitem img {
+  display: flex;
+  width: 100%;
+  max-height: 100%;
+  border: 4px double rgba(0, 0, 0, 0.12);
+}
+
+.homePage{
+  height: 100%;
+}
+.homePage div[class^="infinite-scroll-component__outerdiv"]{
+  height: 100%;
+}
